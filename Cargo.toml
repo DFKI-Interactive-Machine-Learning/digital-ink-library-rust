@@ -4,10 +4,10 @@ name = "digital-ink-library"
 version = "1.4.0"
 authors = ["Alexander Prange <alexander.prange@dfki.de>"]
 edition = "2018"
-documentation = "http://lnv-3201.sb.dfki.de/digital-ink/digital-ink-library"
-homepage = "http://lnv-3201.sb.dfki.de/digital-ink/digital-ink-library"
-repository = "http://lnv-3201.sb.dfki.de/digital-ink/digital-ink-library"
-license = "GPLv3"
+homepage = "https://github.com/DFKI-Interactive-Machine-Learning/digital-ink-library-rust"
+repository = "https://github.com/DFKI-Interactive-Machine-Learning/digital-ink-library-rust"
+license-file = "LICENSE"
+readme = "README.md"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
