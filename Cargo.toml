@@ -1,0 +1,15 @@
+[package]
+description = "library for digital ink (strokes, sketches etc.)"
+name = "digital-ink-library"
+version = "1.4.0"
+authors = ["Alexander Prange <alexander.prange@dfki.de>"]
+edition = "2018"
+documentation = "http://lnv-3201.sb.dfki.de/digital-ink/digital-ink-library"
+homepage = "http://lnv-3201.sb.dfki.de/digital-ink/digital-ink-library"
+repository = "http://lnv-3201.sb.dfki.de/digital-ink/digital-ink-library"
+license = "GPLv3"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tempfile = "3"
